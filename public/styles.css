@@ -20,12 +20,7 @@ h1 {
   max-width: 640px;
 }
 
-.container {
-  padding: 16px;
-  border: 4px solid white;
-  border-radius: 8px;
-  box-sizing: border-box;
-}
+
 
 .circle {
   height: 100px;
@@ -93,4 +88,16 @@ h1 {
   justify-content: space-between;
   align-items: center;
   flex-direction: row-reverse;
+}
+
+.container{
+  min-height: 50px;
+  padding-top: 20px;
+  text-align: center;
+  background-image: url('https://web.jerichoschools.org/hs/teachers/lfischer/stranger/Sisyphus.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  clip-path: circle(30px);
+color: transparent;
 }
