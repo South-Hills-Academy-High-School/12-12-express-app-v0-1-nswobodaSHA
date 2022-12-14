@@ -101,3 +101,14 @@ h1 {
   clip-path: circle(30px);
 color: transparent;
 }
+.container-snow{
+  min-height: 50px;
+  padding-top: 20px;
+  text-align: center;
+  background-image: url('https://web.jerichoschools.org/hs/teachers/lfischer/stranger/Sisyphus.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  clip-path: url('https://upload.wikimedia.org/wikipedia/commons/0/0f/Scandinavian_Snowflake.svg');
+color: transparent;
+}
